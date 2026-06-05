@@ -5,7 +5,9 @@ Implementation will be released after acceptance.
 
 
 ## Video Foundation Model Finetuning Details: Framework, Data, and Prompts.
-In DEG, we employ LoRA to finetune Wan2.1-I2V-14B as our RL guide. We use DiffSynth-Studio (https://github.com/modelscope/DiffSynth-Studio) as our finetuning framework, following its default settings on Wan2.1-I2V-14B. The number of videos and task prompts employed in each task is provided here. 
+In DEG, we employ LoRA to finetune Wan2.1-I2V-14B as our RL guide. We use DiffSynth-Studio (https://github.com/modelscope/DiffSynth-Studio) as our finetuning framework, following its default settings on Wan2.1-I2V-14B. 
+
+We employ a total of 18 tasks including both real-word tasks and simulation tasks. The number of videos and task prompts employed in each task is provided here. 
 
 ### real-world: pick banana (3 videos)
 A video clip of the robotic arm successfully grasping and placing a banana into a plate. On a table, there are a plate, a banana initialized at a random position, and a robotic arm equipped with a gripper. The robotic arm moves horizontally above the banana, then opens its gripper, descends to precisely grasp the banana with the gripper, lifts it, moves horizontally above the plate, opens the gripper, and places the banana into the plate.
@@ -96,6 +98,8 @@ Keep the table static and the faucet position unchanged throughout. Preserve det
 
 
 ## Hyper-parameter settings
+
+![Example Image](deg-hyper.png)
 
 
 
