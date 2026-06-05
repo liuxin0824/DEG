@@ -65,9 +65,37 @@ A video clip of the button-press-topdown task: A red robotic arm is positioned o
 Keep the table static and the box position unchanged throughout. Preserve detailed ground shadows. Ensure that the motion of the robotic arm follows logical physics, and maintain consistent colors and shapes of the objects and scene from start to finish. Note that the red button does not move until the robotic arm makes contact with it.
 
 ### hammer (3 videos)
+A video clip of the hammer task: A red robotic arm is positioned on a table, along with a hammer featuring a red handle and a wooden block with a nail. The robotic arm moves toward the hammer, uses its gripper to precisely grasp the hammer’s red handle, lifts the hammer, moves it to align the hammerhead with the nail, and presses the nail into the wooden block. 
+
+Keep the table static and the wooden block position unchanged throughout. Preserve detailed ground shadows. Ensure that the motion of the robotic arm and the hammer follows logical physics, and maintain consistent colors and shapes of the objects and scene from start to finish.
+
+### assembly (3 videos)
+A video clip of the assembly task: A red robotic arm is positioned on a table, along with a circular part featuring a green handle and a fixed red cylinder. The robotic arm moves toward the part, uses its gripper to precisely grasp its green handle, lifts the part, moves it toward the red cylinder, and places the circular part onto the cylinder. 
+
+Keep the table static and the red cylinder position unchanged throughout. Preserve detailed ground shadows. Ensure that the motion of the robotic arm and the part follows logical physics, and maintain consistent colors and shapes of the objects and scene from start to finish.
+
+### door-open (3 videos)
+A video clip of the door-open task: A red robotic arm is positioned on a table, along with a black cabinet with a gray handle (cabinet position randomly initialized and then fixed), and a light green target marker. The robotic arm lifts up, moves toward the cabinet handle while gradually closing its gripper, uses the gripper to precisely press against the gray handle of the black cabinet from the inside, then pulls the cabinet door open until it reaches the position of the green target marker. 
+
+Keep the table static and the cabinet position unchanged throughout. Preserve detailed ground shadows. Ensure that the motion of the robotic arm and the cabinet door follows logical physics, and maintain consistent colors and appearance of the objects and the scene from start to finish.
+
+### window-open (5 videos)
+A video clip of the window-open task: A red robotic arm is positioned on a table, along with a closed window whose position is randomly initialized and then fixed. The robotic arm lifts up, moves toward the window, uses its gripper to press against the window's white handle from the right side, and then moves leftward to push the window open. 
+
+Keep the table static and the window position unchanged throughout. Preserve detailed ground shadows. Ensure that the motion of the robotic arm and the window follows logical physics, and maintain consistent colors and appearance of the scene and objects from start to finish.
+
+### handle-press-side (3 videos)
+A video clip of the handle-press-side task: A red robotic arm is positioned on a table, along with a dark gray device featuring a red handle (device position randomly initialized and then fixed). The robotic arm lifts up, moves above the handle, then descends and presses the handle down. 
+
+Keep the table static and the device position unchanged throughout. Preserve detailed ground shadows. Ensure that the motion of the robotic arm follows logical physics, and maintain consistent colors and shapes of the objects and scene from start to finish with no pixelation or artifacts. Note that the handle does not move until the robotic arm makes contact with it.
+
+### faucet-close (3 videos)
+A video clip of the faucet-close task: A red robotic arm is positioned on a table, along with a faucet featuring a red knob. The robotic arm moves toward the faucet, uses its gripper to precisely press against the red knob from the left side, and rotates it clockwise to close the faucet. 
+
+Keep the table static and the faucet position unchanged throughout. Preserve detailed ground shadows. Ensure that the motion of the robotic arm and the target object follows logical physics, and maintain consistent colors and shapes of the objects and scene from start to finish. Note that the knob does not move until the robotic arm makes contact with it.
 
 
-
+## Hyper-parameter settings
 
 
 
